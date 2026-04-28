@@ -1,0 +1,13 @@
+all: mem mem2 mem3
+
+mem: mem.c
+    gcc -o mem mem.c
+
+mem2: mem2.c
+    gcc -o mem2 mem2.c
+
+mem3: mem3.c
+    gcc -o mem3 mem3.c
+
+clean:
+    rm -f mem mem2 mem3
